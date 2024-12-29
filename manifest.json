@@ -1,6 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "GTM Finder",
+  "name": "GTM Clover",
+  "description": "GTM Clover",
   "version": "1.0",
   "icons": {
     "16": "images/icon-16.png",
@@ -8,18 +9,25 @@
     "48": "images/icon-48.png",
     "128": "images/icon-128.png"
   },
-  "action": {
-    "default_popup": "popup.html"
-  },
-  "host_permissions": ["<all_urls>"],
-  "permissions": ["scripting", "activeTab", "storage", "webRequest"],
   "background": {
     "service_worker": "background.js"
   },
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"]
+  "action": {
+    "default_icon": {
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-48.png",
+      "128": "images/icon-128.png"
     }
-  ]
+  },
+  "host_permissions": ["<all_urls>"],
+  "permissions": ["scripting", "activeTab", "webRequest", "storage"],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+B",
+        "mac": "Command+B"
+      }
+    }
+  }
 }
