@@ -21,7 +21,7 @@
     }
   },
   "host_permissions": ["<all_urls>"],
-  "permissions": ["scripting", "activeTab", "webRequest", "storage"],
+  "permissions": ["scripting", "activeTab", "storage"],
   "commands": {
     "_execute_action": {
       "suggested_key": {
