@@ -51,10 +51,6 @@ The source code for GTM Clover is available in the repository. See the following
 
 We welcome contributions! Please submit pull requests or report issues in the GitHub repository.
 
-<br>
-
 ---
-
-<br>
 
 Enjoy using **GTM Clover**! If you find it useful, consider giving it a star on GitHub. ⭐
