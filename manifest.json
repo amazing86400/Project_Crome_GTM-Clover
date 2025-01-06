@@ -21,13 +21,5 @@
     }
   },
   "host_permissions": ["<all_urls>"],
-  "permissions": ["scripting", "activeTab", "storage"],
-  "commands": {
-    "_execute_action": {
-      "suggested_key": {
-        "default": "Ctrl+B",
-        "mac": "Command+B"
-      }
-    }
-  }
+  "permissions": ["scripting", "activeTab", "storage"]
 }
