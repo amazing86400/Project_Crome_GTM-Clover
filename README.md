@@ -2,6 +2,8 @@
 
 Detect and display Google Tag Manager (GTM) container IDs by analyzing network requests on any website.
 
+<br>
+
 ## Overview
 
 **GTM Clover** is a powerful Chrome extension designed to help you detect and validate Google Tag Manager (GTM) implementation on any website. With its user-friendly interface, this tool simplifies debugging and optimizing GTM setups.
@@ -18,11 +20,15 @@ Detect and display Google Tag Manager (GTM) container IDs by analyzing network r
 2. Click on the GTM Clover extension icon.
 3. Instantly see all detected GTM container IDs in a simple, easy-to-read interface.
 
+<br>
+
 ## Installation
 
 1. Visit the [Chrome Web Store](https://chromewebstore.google.com/detail/gtm-clover/jambiinnaiijedahmkbajgicdgdbhldj).
 2. Click the **Add to Chrome** button.
 3. Confirm the installation and enjoy the benefits of GTM Clover.
+
+<br>
 
 ## Source Code
 
@@ -32,15 +38,23 @@ The source code for GTM Clover is available in the repository. See the following
 - [background.js](./background.js): Handles the background logic for toggling badge states and injecting scripts.
 - [content.js](./content.js): Analyzes the current webpage and detects GTM container IDs.
 
+<br>
+
 ## Development Timeline
 
 - **Start Date**: 2024-12-28
 - **End Date**: 2025-01-02
 
+<br>
+
 ## Contribution
 
 We welcome contributions! Please submit pull requests or report issues in the GitHub repository.
 
+<br>
+
 ---
+
+<br>
 
 Enjoy using **GTM Clover**! If you find it useful, consider giving it a star on GitHub. ⭐
